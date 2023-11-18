@@ -2,13 +2,16 @@ package com.qa.tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
+import com.qa.util.CustomReportListner;
 import com.qa.base.TestBase;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 
+@Listeners(CustomReportListner.class)
 public class demoTests extends TestBase {
 	
 	public LoginPage loginPage;
@@ -26,19 +29,19 @@ public class demoTests extends TestBase {
 		homePage = new HomePage();
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 1, description = "User should be login.")
 	public void Login() {
 		loginPage.doLogin();
 		
-		Assert.assertEquals(homePage.getWelcomeMsg(), "Welcome, Jonn Smith");
+		Assert.assertEquals(homePage.getWelcomeMsg(), "Welcome, Jon Smith");
 	}
 	
-//	@Test(priority = 2)
-//	public void Logout() {
-//		homePage.logout();
-//		
-//		Assert.assertEquals(loginPage.getPageTitle(), "Login | Salesforce");
-//	}
+	@Test(priority = 2, description = "User should be logout.")
+	public void Logout() {
+		homePage.logout();
+		
+		Assert.assertEquals(loginPage.getPageTitle(), "Login | Salesforce");
+	}
 	
 
 	@AfterClass

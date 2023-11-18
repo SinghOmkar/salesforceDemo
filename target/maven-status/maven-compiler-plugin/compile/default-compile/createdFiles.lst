@@ -1,5 +1,9 @@
 com/qa/pages/LoginPage.class
 com/qa/util/Constants.class
-com/qa/pages/HomePage.class
 com/qa/pages/salesforce.class
 com/qa/base/TestBase.class
+com/qa/util/CustomReport.class
+com/qa/util/zip.class
+com/qa/util/CustomReportListner.class
+com/qa/pages/HomePage.class
+com/qa/util/CustomReportManager.class

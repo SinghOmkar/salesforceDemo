@@ -1,5 +1,9 @@
-/home/om/eclipse-ws-new/salesforceDemo/src/main/java/com/qa/pages/HomePage.java
-/home/om/eclipse-ws-new/salesforceDemo/src/main/java/com/qa/pages/salesforce.java
-/home/om/eclipse-ws-new/salesforceDemo/src/main/java/com/qa/pages/LoginPage.java
-/home/om/eclipse-ws-new/salesforceDemo/src/main/java/com/qa/base/TestBase.java
-/home/om/eclipse-ws-new/salesforceDemo/src/main/java/com/qa/util/Constants.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/pages/HomePage.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/pages/LoginPage.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/util/Constants.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/util/zip.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/util/CustomReportListner.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/util/CustomReportManager.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/base/TestBase.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/pages/salesforce.java
+/home/om/.jenkins/workspace/SalesforceDemo/src/main/java/com/qa/util/CustomReport.java
